@@ -1,154 +1,180 @@
-# HR-Analytics-Dashboard- Tableau
+# HR Analytics Dashboard- Tableau + SQL
+
+## Project Overview
+
+This project analyses employee attrition, workforce demographics and key HR metrics using SQL for data preparation and Tableau for interactive dashboard development.
+
+The objective of this project is to identify the key drivers of employee attrition, understand workforce trends and provide actionable business recommendations to improve employee retention.
 
 
-**HR Analytics Dashboard using SQL & Tableau**
 
-**Project Overview**
-This project analyzes employee attrition, workforce demographics, and employee performance using SQL in Google BigQuery and Tableau.
-The objective of this project is to identify key factors contributing to employee attrition and provide data-driven insights that support workforce planning and employee retention strategies.
+# Business Problem
 
-**Business Problem**
+Employee attrition is one of the biggest challenges faced by organisations as it directly impacts productivity, recruitment costs and business performance.
 
-Employee attrition can significantly impact an organization's productivity, recruitment costs, and overall business performance.
+This project aims to answer the following business questions:
 
-**This project aims to answer the following business questions:**
+- How many employees have left the company?
+- Which departments experience the highest attrition?
+- Which job roles are most affected?
+- Which age groups have the highest employee turnover?
+- Does business travel influence employee attrition?
+- Does overtime contribute to employees leaving?
+- Which departments have the highest average salary?
 
-How many employees are currently in the organization?
-What is the employee attrition rate?
-Which departments experience the highest employee attrition?
-Which job roles have the highest turnover?
-Does overtime contribute to employee attrition?
-Which age groups are most likely to leave?
-How does business travel affect employee attrition?
-Which departments have the highest average monthly income?
 
-**Tools Used**
 
-Google BigQuery/
-SQL/
-Tableau/
-GitHub/
+# Dataset
 
-**Dataset**
 **Dataset:** IBM HR Analytics Employee Attrition Dataset
 
-The dataset contains information for **1,470 employees,** including:
-Employee Demographics
-Department
-Job Role
-Age
-Gender
-Monthly Income
-Business Travel
-Overtime
-Years at Company
-Employee Attrition
+The dataset contains **1,470 employee records** with workforce information including:
 
-**Project Workflow**
-
-**Step 1 – Data Loading**
-
-Created a Google BigQuery project.
-Imported the HR Analytics dataset.
-Validated the data and verified column types.
-
-**Step 2 – Data Exploration**
-Explored the dataset to understand:
-Total employees
-Employee demographics
-Attrition distribution
-Workforce characteristics
-Employee salary information
-
-**Step 3 – SQL Analysis**
-SQL queries were written to answer key business questions, including:
-Total Employees
-Employees Left
-Attrition Rate
-Attrition by Department
-Attrition by Job Role
-Attrition by Gender
-Attrition by Business Travel
-Attrition by Age Group
-Attrition by Overtime
-Average Monthly Income by Department
-Average Employee Age
-Average Years at Company
-
-**SQL Techniques Used**
-
-SELECT
-WHERE
-GROUP BY
-ORDER BY
-COUNT()
-AVG()
-COUNTIF()
-ROUND()
-CASE WHEN
-
-**Dashboard Development**
-
-An interactive Tableau dashboard was developed to visualize workforce trends and employee attrition.
-
-**Dashboard Includes**
-Total Employees KPI
-Employees Left KPI
-Attrition Rate KPI
-Average Monthly Income KPI
-Average Age KPI
-Average Tenure KPI
-Attrition by Department
-Attrition by Job Role
-Attrition by Gender
-Attrition by Age Group
-Attrition by Business Travel
-Attrition by Overtime
-Average Monthly Income by Department
-
-**Dashboard Preview**
-
-![HR Analytics Dashboard](Dashboard/HR%20analytics%20Dashboard.png)
+- Employee Demographics
+- Department
+- Job Role
+- Gender
+- Age
+- Monthly Income
+- Business Travel
+- Overtime
+- Years at Company
+- Attrition Status
 
 
-**Key Findings**
 
-The analysis identified several workforce trends:
-The organization has 1,470 employees, with 237 employees leaving, resulting in an attrition rate of 16.12%.
-Research & Development recorded the highest number of employee departures.
-Employees aged 26–35 years experienced the highest attrition.
-Employees who worked overtime showed a higher likelihood of leaving the organization.
-Employees who travelled frequently demonstrated higher attrition compared to non-travelling employees.
-Sales employees had the highest average monthly income among all departments.
-Male employees experienced higher attrition than female employees.
+# Tools Used
 
-**Business Recommendations**
+- Google BigQuery
+- SQL
+- Tableau Public
+- GitHub
 
-Based on the analysis, the following recommendations were identified:
-Develop targeted retention programs for departments with high employee turnover.
-Review overtime policies to improve employee work-life balance and reduce burnout.
-Introduce career development and mentoring programs for employees aged 26–35 years.
-Monitor business travel requirements and offer flexible working arrangements where possible.
-Conduct employee satisfaction surveys to better understand the reasons for attrition.
-Regularly review salary structures to ensure competitive compensation across departments.
 
-**Skills Demonstrated**
 
-This project demonstrates the following technical and analytical skills:
+# Project Workflow
 
-SQL Data Analysis
-Google BigQuery
-Tableau Dashboard Development
-KPI Reporting
-Employee Analytics
-Data Cleaning
-Data Aggregation
-Data Visualization
-Business Intelligence
-Business Insights
-Dashboard Design
-Data Storytelling
+### Step 1 — Data Loading
 
-**Project Outcome**
+- Imported the HR Analytics dataset into Google BigQuery.
+- Verified column names and data types.
+- Validated data quality before analysis.
 
-This dashboard transforms raw HR data into actionable insights that help HR teams and business leaders identify workforce trends, monitor employee attrition, and support data-driven decision-making.
+### Step 2 — SQL Data Analysis
+
+Performed exploratory analysis to calculate business KPIs including:
+
+- Total Employees
+- Employees Left
+- Attrition Rate
+- Average Age
+- Average Monthly Income
+- Average Years at Company
+
+Additional SQL analysis included:
+
+- Attrition by Department
+- Attrition by Job Role
+- Attrition by Gender
+- Attrition by Age Group
+- Attrition by Business Travel
+- Attrition by Overtime
+- Average Income by Department
+
+### SQL Techniques Used
+
+- SELECT
+- WHERE
+- CASE WHEN
+- GROUP BY
+- ORDER BY
+- COUNT()
+- SUM()
+- AVG()
+- ROUND()
+
+
+
+# Dashboard
+
+## Dashboard Preview
+
+![HR Analytics Dashboard](Dashboard/hr_analytics_dashboard.png)
+
+
+# Key Performance Indicators (KPIs)
+
+- Total Employees
+- Employees Left
+- Attrition Rate
+- Average Monthly Income
+- Average Employee Age
+- Average Employee Tenure
+
+
+
+# Key Insights
+
+### Workforce Overview
+
+- The organisation has **1,470 employees**, with **237 employees leaving**, resulting in an attrition rate of **16.12%**.
+
+### Department Analysis
+
+- Research & Development recorded the highest employee attrition.
+- Human Resources experienced the lowest employee turnover.
+
+### Job Role Analysis
+
+- Laboratory Technicians, Sales Executives and Research Scientists experienced the highest attrition levels.
+
+### Business Travel
+
+- Employees who travel frequently were more likely to leave the organisation.
+
+### Overtime
+
+- Employees working overtime showed noticeably higher attrition than employees who did not work overtime.
+
+### Age Group
+
+- Employees aged **26–35 years** experienced the highest attrition, indicating early-career turnover.
+
+### Salary Analysis
+
+- Sales department employees had the highest average monthly income.
+- Research & Development recorded the lowest average monthly income among the departments analysed.
+
+
+
+# Business Recommendations
+
+Based on the analysis, the following recommendations are suggested:
+
+- Review employee retention strategies within the Research & Development department.
+- Investigate workload and employee satisfaction for Laboratory Technicians and Sales Executives.
+- Improve work-life balance by reducing excessive overtime where possible.
+- Develop targeted retention programmes for employees aged 26–35 years.
+- Review compensation and career progression opportunities for departments with higher attrition.
+- Monitor business travel frequency and introduce flexible working arrangements where appropriate.
+
+
+
+# Skills Demonstrated
+
+This project demonstrates practical experience in:
+
+- SQL Data Analysis
+- Google BigQuery
+- Tableau Dashboard Development
+- KPI Reporting
+- HR Analytics
+- Data Cleaning
+- Data Aggregation
+- Business Intelligence
+- Data Visualisation
+- Data Storytelling
+- Business Insights & Recommendations
+
+
+
