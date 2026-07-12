@@ -99,7 +99,7 @@ Additional SQL analysis included:
 
 ## Dashboard Preview
 
-![HR Analytics Dashboard](Dashboard/hr_analytics_dashboard.png)
+![HR Analytics Dashboard](Dashboard/HR%20analytics%20Dashboard.png)
 
 
 # Key Performance Indicators (KPIs)
