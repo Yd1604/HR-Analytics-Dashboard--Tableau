@@ -1,3 +1,5 @@
+HR analytics CSV file:
+
 Age	Attrition	BusinessTravel	DailyRate	Department	DistanceFromHome	Education	EducationField	EmployeeCount	EmployeeNumber	EnvironmentSatisfaction	Gender	HourlyRate	JobInvolvement	JobLevel	JobRole	JobSatisfaction	MaritalStatus	MonthlyIncome	MonthlyRate	NumCompaniesWorked	Over18	OverTime	PercentSalaryHike	PerformanceRating	RelationshipSatisfaction	StandardHours	StockOptionLevel	TotalWorkingYears	TrainingTimesLastYear	WorkLifeBalance	YearsAtCompany	YearsInCurrentRole	YearsSinceLastPromotion	YearsWithCurrManager
 33	FALSE	Travel_Rarely	516	Research & Development	8	5	Life Sciences	1	1515	4	Male	69	3	2	Healthcare Representative	3	Single	6388	22049	2	TRUE	TRUE	17	3	1	80	0	14	6	3	0	0	0	0
 42	FALSE	Travel_Rarely	1128	Research & Development	13	3	Medical	1	1803	2	Male	95	4	2	Healthcare Representative	1	Married	5538	5696	5	TRUE	FALSE	18	3	3	80	2	10	2	2	0	0	0	0
