@@ -24,10 +24,10 @@ Which departments have the highest average monthly income?
 
 **Tools Used**
 
-Google BigQuery
-SQL
-Tableau
-GitHub
+Google BigQuery/
+SQL/
+Tableau/
+GitHub/
 
 **Dataset**
 **Dataset:** IBM HR Analytics Employee Attrition Dataset
